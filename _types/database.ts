@@ -133,14 +133,12 @@ export interface Database {
           baumhoehe: string | null
           bezirk: string | null
           caretaker: string | null
-          eigentuemer: string | null
           gattung: string | null
           gattungdeutsch: string | null
           geom: unknown | null
           gmlid: string | null
           hausnr: string | null
           id: string
-          kennzeich: string | null
           kronedurch: string | null
           lat: string | null
           lng: string | null
@@ -148,12 +146,11 @@ export interface Database {
           radolan_days: number[] | null
           radolan_sum: number | null
           stammumfg: string | null
-          standalter: string | null
           standortnr: string | null
           strname: string | null
-          type: string | null
           watered: string | null
-          zusatz: string | null
+          aend_dat: Date | null
+
         }
         Insert: {
           adopted?: string | null
@@ -162,14 +159,12 @@ export interface Database {
           baumhoehe?: string | null
           bezirk?: string | null
           caretaker?: string | null
-          eigentuemer?: string | null
           gattung?: string | null
           gattungdeutsch?: string | null
           geom?: unknown | null
           gmlid?: string | null
           hausnr?: string | null
           id: string
-          kennzeich?: string | null
           kronedurch?: string | null
           lat?: string | null
           lng?: string | null
@@ -177,12 +172,10 @@ export interface Database {
           radolan_days?: number[] | null
           radolan_sum?: number | null
           stammumfg?: string | null
-          standalter?: string | null
           standortnr?: string | null
           strname?: string | null
-          type?: string | null
           watered?: string | null
-          zusatz?: string | null
+          aend_dat: Date | null
         }
         Update: {
           adopted?: string | null
@@ -191,14 +184,12 @@ export interface Database {
           baumhoehe?: string | null
           bezirk?: string | null
           caretaker?: string | null
-          eigentuemer?: string | null
           gattung?: string | null
           gattungdeutsch?: string | null
           geom?: unknown | null
           gmlid?: string | null
           hausnr?: string | null
           id?: string
-          kennzeich?: string | null
           kronedurch?: string | null
           lat?: string | null
           lng?: string | null
@@ -206,12 +197,10 @@ export interface Database {
           radolan_days?: number[] | null
           radolan_sum?: number | null
           stammumfg?: string | null
-          standalter?: string | null
           standortnr?: string | null
           strname?: string | null
-          type?: string | null
           watered?: string | null
-          zusatz?: string | null
+          aend_dat: Date | null
         }
       }
       trees_adopted: {
